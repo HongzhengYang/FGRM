@@ -32,6 +32,7 @@ The AI-ENDO ESD dataset can be downloaded from [here]().
 2. Install dependencies:
 
    1. install pytorch==1.7.0 torchvision==0.9.0 (via conda, recommend)
+   2. install the [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) (locally or in the conda env)
 
 3. download the dataset
 
