@@ -1,5 +1,5 @@
 # Uncertainty Estimation for Safety-critical Scene Segmentation via Fine-grained Reward Maximization
-Pytorch implementation for Neurips paper Uncertainty Estimation for Safety-critical Scene Segmentation via Fine-grained Reward Maximization, by [Hongzheng Yang](https://github.com/HongZhengYang), [Chen Cheng](https://cchen-cc.github.io/), [Yueyao Chen](), [Markus Scheppach](),  [Hon Chi Yip](https://www.surgery.cuhk.edu.hk/profile.asp?alias=hcyip), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/).  
+Pytorch implementation for Uncertainty Estimation for Safety-critical Scene Segmentation via Fine-grained Reward Maximization, by [Hongzheng Yang](https://github.com/HongZhengYang), [Chen Cheng](https://cchen-cc.github.io/), [Yueyao Chen](), [Markus Scheppach](),  [Hon Chi Yip](https://www.surgery.cuhk.edu.hk/profile.asp?alias=hcyip), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/).  
 
 ## Abstract
 
@@ -15,18 +15,17 @@ To reproduce results on AI-ENDO ESD datasets, please refer to the experiments fo
 
 ## Datasets
 
-The OCT dataset can downloaded from [here](http://iacl.ece.jhu.edu/index.php?title=Resources). 
+The CholecSeg8K dataset can downloaded from [here]((https://www.kaggle.com/datasets/newslab/cholecseg8k)). 
 
-The Camelyon17 dataset can be downloaded from [here](https://wilds.stanford.edu/).
+The AI-ENDO ESD dataset can be downloaded from [here]().
 
-The Prostate dataset can be downloaded from [here](https://liuquande.github.io/SAML/).
 
 ## Usage
 
 1. create conda environment
    
-       conda create -n DLTTA python=3.7
-       conda activate DLTTA
+       conda create -n FGRM python=3.7
+       conda activate FGRM
    
 2. Install dependencies:
 
@@ -36,18 +35,18 @@ The Prostate dataset can be downloaded from [here](https://liuquande.github.io/S
 
 4. download the pretrained model from [google drive](https://drive.google.com/drive/folders/1-Y63KlYmBsEQp5vz3gm2IjdY8TOvidCA?usp=sharing)
 
-5. modify the corresponding data path and model path in test.sh
+5. modify the corresponding data path and model path
 
-6. run test.sh to adapt the model
+6. run main.py to calibrate the model
 
 ## Citation
 
 If this repository is useful for your research, please cite:
 
-    @article{2022DLTTA,
-     title={DLTTA: Dynamic Learning Rate for Test-time Adaptation on Cross-domain Medical Images},
-      author={Hongzheng Yang, Cheng Chen, Meirui Jiang, Quande Liu, Jianfeng Cao, Pheng Ann Heng, Qi Dou},
-      year={2022}
+    @article{2023FGRM,
+     title={Uncertainty Estimation for Safety-critical Scene Segmentation via Fine-grained Reward Maximization},
+      author={Hongzheng Yang, Cheng Chen, Markus Scheppach, Hon Chi Yip, Qi Dou},
+      year={2023}
     }  
 
 ### Questions
