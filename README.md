@@ -7,7 +7,7 @@ Pytorch implementation for Uncertainty Estimation for Safety-critical Scene Segm
 
 ![](assets/methods.png)
 
-## Files
+## Files Organization
 
 In this repository, we provide the implementation of our uncertainty estimation method on CholecSeg8K dataset. The evidential learning implementation were adopted from [TBraTS](https://github.com/cocofeat/tbrats).
 
