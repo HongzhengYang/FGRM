@@ -36,11 +36,11 @@ For AI-ENDO ESD dataset, access to the human cases is limited due to ethical reg
 
 3. download the dataset
 
-4. download the pretrained model from [google drive](https://drive.google.com/drive/folders/1-Y63KlYmBsEQp5vz3gm2IjdY8TOvidCA?usp=sharing)
+4. put your pretrained model under appropate path or train the EDL method with run_EDL() 
 
 5. modify the corresponding data path and model path
 
-6. run main.py to calibrate the model
+6. run run_FGRM() to calibrate the model
 
 ## Citation
 
