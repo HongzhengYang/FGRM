@@ -54,4 +54,4 @@ If this repository is useful for your research, please cite:
 
 ### Questions
 
-Please feel free to contact 'hzyang05@gmail.com' if you have any questions. 
+Please contact 'hzyang05@gmail.com' if you have any questions. 
