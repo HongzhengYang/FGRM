@@ -17,7 +17,7 @@ To reproduce results on AI-ENDO ESD datasets, please refer to the experiments fo
 
 ## Datasets
 
-The CholecSeg8K dataset can downloaded from [here](https://drive.google.com/drive/folders/1YJX9GpmAssrlWAOYp-0a-OGL2lhuoELD?usp=drive_link). 
+The CholecSeg8K dataset can downloaded from [here](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155184129_link_cuhk_edu_hk/Eq_VZfrXM9BFofvs7fYCs6sBYCzj4VKSOyy819VHe4FjBg?e=6sTf6E). 
 
 For AI-ENDO ESD dataset, access to the human cases is limited due to ethical regulations. Source code and pretrained model are provided.
 
