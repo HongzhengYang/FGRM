@@ -1,5 +1,5 @@
 # Uncertainty Estimation for Safety-critical Scene Segmentation via Fine-grained Reward Maximization
-Pytorch implementation for Uncertainty Estimation for Safety-critical Scene Segmentation via Fine-grained Reward Maximization, by [Hongzheng Yang](https://github.com/HongZhengYang), [Chen Cheng](https://cchen-cc.github.io/), [Yueyao Chen](), [Markus Scheppach](),  [Hon Chi Yip](https://www.surgery.cuhk.edu.hk/profile.asp?alias=hcyip), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/).  
+Pytorch implementation for Uncertainty Estimation for Safety-critical Scene Segmentation via Fine-grained Reward Maximization, by [Hongzheng Yang*](https://github.com/HongZhengYang), [Chen Cheng*](https://cchen-cc.github.io/), [Yueyao Chen](), [Markus Scheppach](),  [Hon Chi Yip](https://www.surgery.cuhk.edu.hk/profile.asp?alias=hcyip), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/).  
 
 ## Abstract
 
@@ -17,7 +17,7 @@ To reproduce results on AI-ENDO ESD datasets, please refer to the experiments fo
 
 ## Datasets
 
-The CholecSeg8K dataset can downloaded from [here](https://www.kaggle.com/datasets/newslab/cholecseg8k). 
+The CholecSeg8K dataset can downloaded from [here](https://drive.google.com/drive/folders/1YJX9GpmAssrlWAOYp-0a-OGL2lhuoELD?usp=drive_link). 
 
 For AI-ENDO ESD dataset, access to the human cases is limited due to ethical regulations. Source code and pretrained model are provided.
 
